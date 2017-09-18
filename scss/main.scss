@@ -1,0 +1,15 @@
+@import 'variables';
+@import 'base';
+
+
+#counter {
+    font-weight:bold;
+    font-size:$font-size;
+
+    button {
+        @include button-color($btn-color,$btn-background, $btn-border);
+        @include circle($size);
+        font-size:$font-size;
+    }    
+}
+

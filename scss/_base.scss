@@ -1,0 +1,11 @@
+@mixin button-color($color, $background, $border) {
+  color: $color;
+  background-color: $background;
+  border-color: $border;
+}
+  
+@mixin circle($size) {
+  width: $size;
+  height: $size;
+  border-radius: $size;
+}
