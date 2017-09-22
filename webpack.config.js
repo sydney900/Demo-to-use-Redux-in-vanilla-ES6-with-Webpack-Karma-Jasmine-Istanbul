@@ -6,7 +6,10 @@ module.exports = {
 		myapp: './src/redux/indexmyapp.js',
 	},
 
+	devtool: "source-map",
+
 	output: {
+		sourceMapFilename: "[name].bundle.js.map",
 		filename: "[name].bundle.js",
 		path: path.join(__dirname, 'dist'),
 		publicPath: '/'

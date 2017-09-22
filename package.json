@@ -10,7 +10,7 @@
   "scripts": {
     "start": "webpack-dev-server --hot --inline",
     "build": "webpack --env development",
-    "build:prod": "webpack -p --env production",
+    "build:prod": "webpack -p --env production -d",
     "test": "karma start",
     "coverage": "karma start --single-run --no-auto-watch --coverage=true || echo done"
   },
